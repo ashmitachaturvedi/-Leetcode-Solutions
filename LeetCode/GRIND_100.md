@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 8 / 100 (8.0%)
+- **Completed:** 9 / 100 (9.0%)
 
 ---
 
@@ -70,7 +70,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Binary Tree Maximum Path Sum
 - [ ] Path Sum III
 - [ ] Flatten Binary Tree to Linked List
-- [ ] Merge Two Binary Trees
+- [x] [Merge Two Binary Trees](./Java/Easy/617. Merge Two Binary Trees/)
 
 ### 📂 Backtracking & Search
 - [ ] Permutations
