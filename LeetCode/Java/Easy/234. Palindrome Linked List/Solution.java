@@ -9,41 +9,22 @@
  * }
  */
 class Solution {
-    public ListNode reverse(ListNode head){
-     ListNode prev = null;
-        ListNode curr = head;
-        while(curr != null){
-            ListNode next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-        }
-        return prev;
-        }
-        public ListNode findMiddle(ListNode head){
-            ListNode hare = head;
-            ListNode turtle = head;
-            while(hare.next != null && hare.next.next != null){
-                hare = hare.next.next;
-                turtle = turtle.next;
-            }
-            return turtle;
-        }
     public boolean isPalindrome(ListNode head) {
-        if(head == null || head.next == null){
-            return true;
+        ArrayList<Integer> arr = new ArrayList<>();
+        ListNode temp = head;
+        while (temp != null) {
+            arr.add(temp.val);
+            temp = temp.next;
         }
-        ListNode middle = findMiddle (head);
-        ListNode secondHalfStart = reverse(middle.next);
-
-        ListNode FirstHalfStart = head;
-        while (secondHalfStart != null){
-            if(FirstHalfStart.val != secondHalfStart.val){
+        int left = 0;
+        int right = arr.size() - 1;
+        while (left < right) {
+            if (!arr.get(left).equals(arr.get(right))) {
                 return false;
             }
-            FirstHalfStart = FirstHalfStart.next;
-            secondHalfStart = secondHalfStart.next;
+            left++;
+            right--;
         }
         return true;
-    } 
+    }
 }
