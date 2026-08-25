@@ -1,6 +1,6 @@
 # 📝 596. Classes With at Least 5 Students (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/classes-with-at-least-5-students/?envType=study-plan-v2&envId=top-sql-50)
+🔗 [Problem Link](https://leetcode.com/problems/classes-with-at-least-5-students/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-SQL-blue)
 
@@ -8,8 +8,8 @@
 Database
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 387 ms
+- **Memory:** 0B
 
 ---
 
