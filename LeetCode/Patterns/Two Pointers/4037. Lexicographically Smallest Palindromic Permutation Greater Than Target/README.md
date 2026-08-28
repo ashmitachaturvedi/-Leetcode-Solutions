@@ -8,8 +8,8 @@
 Two Pointers, String, Enumeration
 
 ### 🚀 Performance
-- **Runtime:** 3 ms
-- **Memory:** 46.6 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
