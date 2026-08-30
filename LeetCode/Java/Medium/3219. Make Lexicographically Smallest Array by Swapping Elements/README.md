@@ -8,8 +8,8 @@
 Array, Union-Find, Sorting
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 73 ms
+- **Memory:** 133.1 MB
 
 ---
 
