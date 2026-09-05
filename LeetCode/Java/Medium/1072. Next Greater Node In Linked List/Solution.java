@@ -8,8 +8,29 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
-    public int[] nextLargerNodes(ListNode head) {
+// class Solution {
+//     public int[] nextLargerNodes(ListNode head) {
+//         ArrayList<Integer> list = new ArrayList<>();
+//         ListNode curr = head;
+//         while(curr != null){
+//             list.add(curr.val);
+//             curr = curr.next;
+//         }
+//         int n = list.size();
+//         int[] ans = new int[n];
+//         for (int i = 0; i < n; i++) {
+//             for (int j = i + 1; j < n; j++) {
+//                 if (list.get(j) > list.get(i)) {
+//                     ans[i] = list.get(j);
+//                     break;
+//                 }
+//             }
+//         }
+//         return ans;
+//     }
+// }
+class Solution{
+    public int[] nextLargerNodes(ListNode head){
         ArrayList<Integer> list = new ArrayList<>();
         ListNode curr = head;
         while(curr != null){
@@ -17,14 +38,13 @@ class Solution {
             curr = curr.next;
         }
         int n = list.size();
-        int[] ans = new int[n];
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (list.get(j) > list.get(i)) {
-                    ans[i] = list.get(j);
-                    break;
-                }
+        int[] ans = new int[n];        
+        Stack<Integer> st = new Stack<>();        
+        for (int i = 0; i < n; i++) {            
+            while (!st.isEmpty() && list.get(i) > list.get(st.peek())) {
+                ans[st.pop()] = list.get(i);
             }
+            st.push(i);
         }
         return ans;
     }
