@@ -46,7 +46,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Course Schedule
 - [ ] Pacific Atlantic Water Flow
 - [ ] Number of Islands
-- [x] [Longest Consecutive Sequence](./Java/Medium/128. Longest Consecutive Sequence/)
+- [x] [Longest Consecutive Sequence](./Java/Uncategorized/Longest Consecutive Sequence/)
 - [ ] Alien Dictionary
 - [ ] Graph Valid Tree
 - [ ] Number of Connected Components in an Undirected Graph

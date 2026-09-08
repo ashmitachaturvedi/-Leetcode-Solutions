@@ -18,7 +18,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Product of Array Except Self
 - [ ] Valid Sudoku
 - [ ] Encode and Decode Strings
-- [x] [Longest Consecutive Sequence](./Java/Medium/128. Longest Consecutive Sequence/)
+- [x] [Longest Consecutive Sequence](./Java/Uncategorized/Longest Consecutive Sequence/)
 
 ### 📂 Two Pointers
 - [ ] Valid Palindrome
