@@ -1,6 +1,6 @@
 # 📝 54. Spiral Matrix (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/spiral-matrix)
+🔗 [Problem Link](https://leetcode.com/problems/spiral-matrix/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
