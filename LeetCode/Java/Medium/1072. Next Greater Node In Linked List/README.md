@@ -8,7 +8,7 @@
 Array, Linked List, Stack, Monotonic Stack
 
 ### 🚀 Performance
-- **Runtime:** 190 ms
+- **Runtime:** 22 ms
 - **Memory:** 49.7 MB
 
 ---
