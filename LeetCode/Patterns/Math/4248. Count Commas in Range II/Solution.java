@@ -16,6 +16,6 @@ class Solution {
             start *= 1000;
             commas++;
         }
-        return (int) ans ;
+        return ans ;
     }
 }
