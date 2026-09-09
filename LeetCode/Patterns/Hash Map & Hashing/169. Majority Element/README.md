@@ -2,14 +2,14 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/majority-element/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
 ### 💡 Tags
 Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm
 
 ### 🚀 Performance
-- **Runtime:** 0 ms
-- **Memory:** 28.1 MB
+- **Runtime:** 1 ms
+- **Memory:** 55.6 MB
 
 ---
 

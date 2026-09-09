@@ -24,7 +24,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 ### 📂 Two Pointers & Hashing
 - [ ] Search a 2D Matrix
 - [ ] Pow(x, n)
-- [x] [Majority Element](./C++/Easy/169. Majority Element/)
+- [x] [Majority Element](./Java/Easy/169. Majority Element/)
 - [ ] Majority Element II
 - [ ] Unique Paths
 - [x] [Two Sum](./C++/Easy/1. Two Sum/)
