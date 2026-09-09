@@ -1,6 +1,6 @@
 # 📝 460. LFU Cache (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/lfu-cache)
+🔗 [Problem Link](https://leetcode.com/problems/lfu-cache/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Hash Table, Linked List, Design, Doubly-Linked List
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 50 ms
+- **Memory:** 136.2 MB
 
 ---
 
