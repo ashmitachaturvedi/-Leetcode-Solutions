@@ -1,6 +1,6 @@
 # 📝 3871. Count Commas in Range II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/count-commas-in-range-ii/?envType=daily-question&envId=2026-09-09)
+🔗 [Problem Link](https://leetcode.com/problems/count-commas-in-range-ii)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
