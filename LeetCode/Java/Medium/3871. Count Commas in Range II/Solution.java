@@ -4,6 +4,10 @@ class Solution {
         long start = 1000;
         long commas = 1;
         while(start <= n){
+            if(start > n / 1000){
+                ans += (n - start + 1) * commas;
+                break;
+            }
             long end = start * 1000 - 1;
             if(end > n){
                 end = n;
@@ -12,6 +16,6 @@ class Solution {
             start *= 1000;
             commas++;
         }
-        return (int) ans ;
+        return ans ;
     }
 }
