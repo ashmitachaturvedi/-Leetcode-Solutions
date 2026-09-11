@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 16 / 150 (10.7%)
+- **Completed:** 17 / 150 (11.3%)
 
 ---
 
@@ -70,7 +70,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Invert Binary Tree
 - [ ] Maximum Depth of Binary Tree
 - [x] [Diameter of Binary Tree](./Java/Easy/543. Diameter of Binary Tree/)
-- [ ] Balanced Binary Tree
+- [x] [Balanced Binary Tree](./Java/Easy/110. Balanced Binary Tree/)
 - [x] [Same Tree](./Java/Easy/100. Same Tree/)
 - [ ] Subtree of Another Tree
 - [ ] Lowest Common Ancestor of a Binary Search Tree
