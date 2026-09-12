@@ -8,8 +8,8 @@
 Array, Hash Table, Recursion, Enumeration
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 6 ms
+- **Memory:** 46.4 MB
 
 ---
 
