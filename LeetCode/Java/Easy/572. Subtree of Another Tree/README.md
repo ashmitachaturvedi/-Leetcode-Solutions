@@ -8,8 +8,8 @@
 Tree, Depth-First Search, String Matching, Binary Tree, Hash Function
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 2 ms
+- **Memory:** 46.5 MB
 
 ---
 
