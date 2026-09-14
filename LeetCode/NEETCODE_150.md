@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 19 / 150 (12.7%)
+- **Completed:** 20 / 150 (13.3%)
 
 ---
 
@@ -77,7 +77,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Binary Tree Level Order Traversal
 - [ ] Binary Tree Right Side View
 - [ ] Count Good Nodes in Binary Tree
-- [ ] Validate Binary Search Tree
+- [x] [Validate Binary Search Tree](./Java/Medium/98. Validate Binary Search Tree/)
 - [x] [Kth Smallest Element in a BST](./Java/Medium/230. Kth Smallest Element in a BST/)
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] Binary Tree Maximum Path Sum
