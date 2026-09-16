@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 29 / 100 (29.0%)
+- **Completed:** 30 / 100 (30.0%)
 
 ---
 
@@ -68,7 +68,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [x] [Kth Smallest Element in a BST](./Java/Medium/230. Kth Smallest Element in a BST/)
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] Binary Tree Maximum Path Sum
-- [ ] Path Sum III
+- [x] [Path Sum III](./Java/Medium/437. Path Sum III/)
 - [ ] Flatten Binary Tree to Linked List
 - [x] [Merge Two Binary Trees](./Java/Easy/617. Merge Two Binary Trees/)
 
