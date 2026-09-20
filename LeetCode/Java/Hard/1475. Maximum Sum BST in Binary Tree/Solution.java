@@ -13,22 +13,6 @@
  *     }
  * }
  */
-// public class Info{
-//     int sum ;
-//     int maxVal;
-//     int minVal;
-//     Info(int sum , int maxVal , int minVal){
-//         this.sum = sum;
-//         this.maxVal = maxVal;
-//         this.minVal = minVal;
-//     }
-// }
-// class Solution {
-//     int maxSum = 0;8
-//     public int maxSumBST(TreeNode root) {
-        
-//     }
-// }
 class Solution {
 
     int ans = 0;
