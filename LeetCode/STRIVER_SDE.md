@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 23 / 76 (30.3%)
+- **Completed:** 24 / 76 (31.6%)
 
 ---
 
@@ -88,7 +88,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Validate Binary Search Tree](./Java/Medium/98. Validate Binary Search Tree/)
 - [ ] Lowest Common Ancestor of a Binary Search Tree
 - [x] [Kth Smallest Element in a BST](./Java/Medium/230. Kth Smallest Element in a BST/)
-- [ ] Serialize and Deserialize Binary Tree
+- [x] [Serialize and Deserialize Binary Tree](./Java/Hard/297. Serialize and Deserialize Binary Tree/)
 
 ### 📂 Dynamic Programming & Graphs
 - [ ] Clone Graph
