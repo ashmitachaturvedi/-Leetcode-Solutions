@@ -1,6 +1,6 @@
 # 📝 102. Binary Tree Level Order Traversal (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal)
+🔗 [Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Tree, Breadth-First Search, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 46.8 MB
 
 ---
 
