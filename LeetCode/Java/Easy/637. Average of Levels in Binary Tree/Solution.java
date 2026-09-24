@@ -20,7 +20,7 @@ class Solution {
         q.offer(root);
         while(!q.isEmpty()){
             int size = q.size();
-            int sum = 0;
+            long sum = 0;
             for(int i = 0 ; i < size ; i++){
                 TreeNode curr = q.poll();
                 sum += curr.val;
