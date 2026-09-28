@@ -7,8 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
-    public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
+
+class Solution{
+    public List<Integer> distanceK(TreeNode root, TreeNode target, int k){
         Map<TreeNode , TreeNode> parent = new HashMap<>();
         buildParent(root, null , parent);
         Queue<TreeNode> queue = new LinkedList<>();
@@ -42,7 +43,7 @@ class Solution {
         }
         return new ArrayList<>();
     }
-    private void buildParent(TreeNode node , TreeNode par , Map<TreeNode,TreeNode> parent){
+    private void buildParent(TreeNode node, TreeNode par, Map<TreeNode,TreeNode> parent){
         if(node == null) return;
         parent.put(node,par);
         buildParent(node.left , node , parent);
