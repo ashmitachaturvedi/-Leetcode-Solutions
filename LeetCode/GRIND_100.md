@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 32 / 100 (32.0%)
+- **Completed:** 33 / 100 (33.0%)
 
 ---
 
@@ -69,7 +69,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] Binary Tree Maximum Path Sum
 - [x] [Path Sum III](./Java/Medium/437. Path Sum III/)
-- [ ] Flatten Binary Tree to Linked List
+- [x] [Flatten Binary Tree to Linked List](./Java/Medium/114. Flatten Binary Tree to Linked List/)
 - [x] [Merge Two Binary Trees](./Java/Easy/617. Merge Two Binary Trees/)
 
 ### 📂 Backtracking & Search
