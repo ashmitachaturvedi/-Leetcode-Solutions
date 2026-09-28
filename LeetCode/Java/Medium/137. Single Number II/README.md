@@ -1,6 +1,6 @@
 # 📝 137. Single Number II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/single-number-ii)
+🔗 [Problem Link](https://leetcode.com/problems/single-number-ii/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 4 ms
+- **Memory:** 45.4 MB
 
 ---
 
