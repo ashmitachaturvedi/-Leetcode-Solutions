@@ -1,5 +1,4 @@
 class Solution {
-
     int[] ans;
 
     public int[] maxNumber(int[] nums1, int[] nums2, int k) {
