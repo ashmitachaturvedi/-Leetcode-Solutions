@@ -67,3 +67,118 @@
 //         }
 //     }
 // }
+class Solution {
+
+    public int[] maxNumber(int[] nums1, int[] nums2, int k) {
+
+        int[] ans = new int[k];
+
+        for (int x = Math.max(0, k - nums2.length);
+             x <= Math.min(k, nums1.length); x++) {
+
+            int[] a = maxSub(nums1, x);
+            int[] b = maxSub(nums2, k - x);
+
+            int[] cur = merge(a, b);
+
+            if (greater(cur, ans))
+                ans = cur;
+        }
+
+        return ans;
+    }
+
+    private int[] maxSub(int[] nums, int k) {
+
+        int[] stack = new int[k];
+        int top = 0;
+        int remove = nums.length - k;
+
+        for (int num : nums) {
+
+            while (top > 0 &&
+                   remove > 0 &&
+                   stack[top - 1] < num) {
+
+                top--;
+                remove--;
+            }
+
+            if (top < k)
+                stack[top++] = num;
+            else
+                remove--;
+        }
+
+        return stack;
+    }
+
+    private int[] merge(int[] a, int[] b) {
+
+        int n = a.length;
+        int m = b.length;
+
+        // lcp[i][j] = common prefix length
+        // between a[i...] and b[j...]
+        int[][] lcp = new int[n + 1][m + 1];
+
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = m - 1; j >= 0; j--) {
+
+                if (a[i] == b[j])
+                    lcp[i][j] = 1 + lcp[i + 1][j + 1];
+            }
+        }
+
+        int[] res = new int[n + m];
+
+        int i = 0;
+        int j = 0;
+
+        for (int p = 0; p < res.length; p++) {
+
+            if (i == n) {
+                res[p] = b[j++];
+            }
+            else if (j == m) {
+                res[p] = a[i++];
+            }
+            else if (a[i] > b[j]) {
+                res[p] = a[i++];
+            }
+            else if (a[i] < b[j]) {
+                res[p] = b[j++];
+            }
+            else {
+
+                int common = lcp[i][j];
+
+                if (j + common == m ||
+                    (i + common < n &&
+                     a[i + common] > b[j + common])) {
+
+                    res[p] = a[i++];
+                }
+                else {
+                    res[p] = b[j++];
+                }
+            }
+        }
+
+        return res;
+    }
+
+    private boolean greater(int[] a, int[] b) {
+
+        for (int i = 0; i < a.length; i++) {
+
+            if (a[i] > b[i])
+                return true;
+
+            if (a[i] < b[i])
+                return false;
+        }
+
+        return false;
+    }
+}
