@@ -1,6 +1,6 @@
 # 📝 662. Maximum Width of Binary Tree (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximum-width-of-binary-tree)
+🔗 [Problem Link](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Tree, Depth-First Search, Breadth-First Search, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 44.5 MB
 
 ---
 
