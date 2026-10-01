@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 27 / 76 (35.5%)
+- **Completed:** 28 / 76 (36.8%)
 
 ---
 
@@ -62,7 +62,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Kth Element of Two Sorted Arrays
 
 ### 📂 Stack & Queue
-- [ ] Valid Parentheses
+- [x] [Valid Parentheses](./Java/Easy/20. Valid Parentheses/)
 - [ ] Next Greater Element I
 - [ ] Next Greater Element II
 - [ ] Largest Rectangle in Histogram
