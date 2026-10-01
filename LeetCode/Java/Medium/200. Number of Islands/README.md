@@ -1,6 +1,6 @@
 # 📝 200. Number of Islands (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/number-of-islands)
+🔗 [Problem Link](https://leetcode.com/problems/number-of-islands/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
