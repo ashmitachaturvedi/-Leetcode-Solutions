@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 28 / 76 (36.8%)
+- **Completed:** 29 / 76 (38.2%)
 
 ---
 
@@ -86,7 +86,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [x] [Symmetric Tree](./Java/Easy/101. Symmetric Tree/)
 - [x] [Validate Binary Search Tree](./Java/Medium/98. Validate Binary Search Tree/)
-- [ ] Lowest Common Ancestor of a Binary Search Tree
+- [x] [Lowest Common Ancestor of a Binary Search Tree](./Java/Medium/235. Lowest Common Ancestor of a Binary Search Tree/)
 - [x] [Kth Smallest Element in a BST](./Java/Medium/230. Kth Smallest Element in a BST/)
 - [x] [Serialize and Deserialize Binary Tree](./Java/Hard/297. Serialize and Deserialize Binary Tree/)
 
