@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 35 / 100 (35.0%)
+- **Completed:** 36 / 100 (36.0%)
 
 ---
 
@@ -77,7 +77,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [x] [Subsets](./Java/Medium/78. Subsets/)
 - [ ] Combination Sum
 - [ ] Word Search
-- [ ] Generate Parentheses
+- [x] [Generate Parentheses](./Java/Medium/22. Generate Parentheses/)
 - [ ] Search a 2D Matrix
 - [ ] Search a 2D Matrix II
 - [ ] Search in Rotated Sorted Array
