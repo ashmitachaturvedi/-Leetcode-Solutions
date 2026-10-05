@@ -45,7 +45,6 @@ class Solution{
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[]{r,c});
         grid[r][c] = '0';
-        
         while(!q.isEmpty()){
             int[] current =  q.poll();
             int row = current[0];
