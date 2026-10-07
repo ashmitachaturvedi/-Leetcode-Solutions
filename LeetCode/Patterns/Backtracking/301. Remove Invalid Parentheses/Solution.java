@@ -3,140 +3,75 @@ import java.util.*;
 class Solution {
 
     public List<String> removeInvalidParentheses(String s) {
-
         List<String> result = new ArrayList<>();
 
-        // Find minimum number of '(' and ')' to remove
-        int left = 0;
-        int right = 0;
-
-        for (char ch : s.toCharArray()) {
-
-            if (ch == '(') {
-                left++;
-            } 
-            else if (ch == ')') {
-
-                if (left > 0) {
-                    left--;
-                } 
-                else {
-                    right++;
-                }
-            }
-        }
-
-        // left = extra '('
-        // right = extra ')'
-
-        backtrack(s, 0, left, right, 0, new StringBuilder(), result);
+        remove(s, result, 0, 0, new char[]{'(', ')'});
 
         return result;
     }
 
-    private void backtrack(
-            String s,
-            int index,
-            int leftRemove,
-            int rightRemove,
-            int balance,
-            StringBuilder current,
-            List<String> result) {
+    private void remove(
+        String s,
+        List<String> result,
+        int start,
+        int lastRemove,
+        char[] par
+    ) {
 
-        // Invalid balance
-        if (balance < 0) {
-            return;
-        }
+        int balance = 0;
 
-        if (index == s.length()) {
+        for (int i = start; i < s.length(); i++) {
 
-            if (leftRemove == 0 &&
-                rightRemove == 0 &&
-                balance == 0) {
-
-                result.add(current.toString());
+            if (s.charAt(i) == par[0]) {
+                balance++;
             }
 
-            return;
-        }
+            if (s.charAt(i) == par[1]) {
+                balance--;
+            }
 
-        char ch = s.charAt(index);
+            // Extra closing bracket found
+            if (balance < 0) {
 
-        // Option 1: Remove current parenthesis
-        if (ch == '(' && leftRemove > 0) {
+                for (int j = lastRemove; j <= i; j++) {
 
-            // Avoid duplicate results
-            if (index == 0 || s.charAt(index - 1) != '(') {
-                backtrack(
-                    s,
-                    index + 1,
-                    leftRemove - 1,
-                    rightRemove,
-                    balance,
-                    current,
-                    result
-                );
+                    if (s.charAt(j) == par[1] &&
+                        (j == lastRemove ||
+                         s.charAt(j - 1) != par[1])) {
+
+                        remove(
+                            s.substring(0, j) + s.substring(j + 1),
+                            result,
+                            i,
+                            j,
+                            par
+                        );
+                    }
+                }
+
+                return;
             }
         }
 
-        if (ch == ')' && rightRemove > 0) {
+        // No extra ')' left.
+        // Now reverse and check extra '('.
+        String reversed = new StringBuilder(s)
+                                .reverse()
+                                .toString();
 
-            // Avoid duplicate results
-            if (index == 0 || s.charAt(index - 1) != ')') {
-                backtrack(
-                    s,
-                    index + 1,
-                    leftRemove,
-                    rightRemove - 1,
-                    balance,
-                    current,
-                    result
-                );
-            }
-        }
+        if (par[0] == '(') {
 
-        // Option 2: Keep current character
-        current.append(ch);
-
-        if (ch == '(') {
-            backtrack(
-                s,
-                index + 1,
-                leftRemove,
-                rightRemove,
-                balance + 1,
-                current,
-                result
+            remove(
+                reversed,
+                result,
+                0,
+                0,
+                new char[]{')', '('}
             );
-        } 
-        else if (ch == ')') {
 
-            if (balance > 0) {
-                backtrack(
-                    s,
-                    index + 1,
-                    leftRemove,
-                    rightRemove,
-                    balance - 1,
-                    current,
-                    result
-                );
-            }
+        } else {
 
-        } 
-        else {
-            // Normal character
-            backtrack(
-                s,
-                index + 1,
-                leftRemove,
-                rightRemove,
-                balance,
-                current,
-                result
-            );
+            result.add(reversed);
         }
-
-        current.deleteCharAt(current.length() - 1);
     }
 }
