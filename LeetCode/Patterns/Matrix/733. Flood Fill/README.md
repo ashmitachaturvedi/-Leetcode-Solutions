@@ -1,6 +1,6 @@
 # 📝 733. Flood Fill (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/flood-fill)
+🔗 [Problem Link](https://leetcode.com/problems/flood-fill/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Depth-First Search, Breadth-First Search, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 46.9 MB
 
 ---
 
