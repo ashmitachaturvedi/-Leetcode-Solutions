@@ -8,8 +8,8 @@
 Array, Math, Sorting, Enumeration
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 9 ms
+- **Memory:** 66.9 MB
 
 ---
 
