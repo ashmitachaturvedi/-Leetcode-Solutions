@@ -1,26 +1,44 @@
 class Solution {
     public int minOperations(String s) {
         int n = s.length();
+
         boolean sorted = true;
-        for(int i = 1 ; i < n ; i++){
-            if(s.charAt(i) < s.charAt(i - 1)){
+
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) < s.charAt(i - 1)) {
                 sorted = false;
                 break;
             }
         }
-        if(sorted) return 0;
-        if(n == 2) return -1;
-        char minChar = 'z';
-        char maxChar = 'a';
-        for(int i = 0 ; i < n ; i++){
-            minChar = (char) Math.min(minChar, s.charAt(i));
-            maxChar = (char) Math.max(maxChar, s.charAt(i));
+
+        if (sorted) return 0;
+
+        if (n == 2) return -1;
+
+        char min = 'z';
+        char max = 'a';
+
+        for (int i = 0; i < n; i++) {
+            char ch = s.charAt(i);
+
+            min = (char) Math.min(min, ch);
+            max = (char) Math.max(max, ch);
         }
-        if(s.charAt(0)  == minChar || s.charAt(n - 1) == maxChar){
+
+        // Case 1: One operation is enough
+        if (s.charAt(0) == min || s.charAt(n - 1) == max) {
             return 1;
         }
-        if(s.charAt(0) == maxChar && s.charAt(n - 1) == minChar) return 3;
-        return 2;
 
+        // Case 2: Check the middle characters
+        for (int i = 1; i < n - 1; i++) {
+            if (s.charAt(i) == min || s.charAt(i) == max) {
+                return 2;
+            }
+        }
+
+        // Case 3: Minimum at end and maximum at start,
+        // with neither extreme in the middle
+        return 3;
     }
 }
