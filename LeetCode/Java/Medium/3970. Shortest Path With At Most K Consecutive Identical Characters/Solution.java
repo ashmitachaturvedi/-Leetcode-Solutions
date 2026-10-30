@@ -1,20 +1,18 @@
 import java.util.*;
-
-class Solution {
-    public int shortestPath(int n, int[][] edges, String labels, int k) {
+class Solution{
+    public int shortestPath(int n, int[][] edges, String labels, int k){
         List<int[]>[] graph = new ArrayList[n];
-
-        for (int i = 0; i < n; i++) {
+        for(int i = 0 ; i < n ; i++){
             graph[i] = new ArrayList<>();
         }
-
-        for (int[] edge : edges) {
+        for(int[] edge : edges){
             graph[edge[0]].add(new int[]{edge[1], edge[2]});
         }
-
-        if (k < 1) {
-            return -1;
-        }
+        if(k < 1) return -1;
+        long[][] dist = new long[n][k + 1];
+        for(long[] row : dist)
+    }
+}
 
         long[][] dist = new long[n][k + 1];
         for (long[] row : dist) {
