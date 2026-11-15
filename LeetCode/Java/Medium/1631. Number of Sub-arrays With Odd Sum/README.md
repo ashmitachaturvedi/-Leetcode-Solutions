@@ -8,8 +8,8 @@
 Array, Math, Dynamic Programming, Prefix Sum
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 8 ms
+- **Memory:** 81.5 MB
 
 ---
 
