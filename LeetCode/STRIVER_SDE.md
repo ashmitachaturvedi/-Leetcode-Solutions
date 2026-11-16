@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 30 / 76 (39.5%)
+- **Completed:** 31 / 76 (40.8%)
 
 ---
 
@@ -42,7 +42,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Intersection of Two Linked Lists
 - [ ] Linked List Cycle
 - [x] [Reverse Nodes in k-Group](./Java/Hard/25. Reverse Nodes in k-Group/)
-- [ ] Palindrome Linked List
+- [x] [Palindrome Linked List](./Java/Easy/234. Palindrome Linked List/)
 - [x] [LRU Cache](./Java/Medium/146. LRU Cache/)
 - [x] [LFU Cache](./Java/Hard/460. LFU Cache/)
 
