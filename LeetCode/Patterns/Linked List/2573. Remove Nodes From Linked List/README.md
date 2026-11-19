@@ -8,8 +8,8 @@
 Linked List, Stack, Recursion, Monotonic Stack
 
 ### 🚀 Performance
-- **Runtime:** 73 ms
-- **Memory:** 134.3 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
