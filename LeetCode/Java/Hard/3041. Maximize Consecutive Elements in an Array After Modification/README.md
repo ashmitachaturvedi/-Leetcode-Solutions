@@ -1,6 +1,6 @@
 # 📝 3041. Maximize Consecutive Elements in an Array After Modification (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/?envType=daily-question&envId=2026-11-20)
+🔗 [Problem Link](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

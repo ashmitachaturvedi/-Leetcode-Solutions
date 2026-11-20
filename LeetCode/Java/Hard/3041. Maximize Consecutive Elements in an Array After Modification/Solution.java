@@ -4,26 +4,28 @@ class Solution {
 
         Arrays.sort(nums);
 
-        int prev = Integer.MIN_VALUE;
-        int count = 0;
+        int maxVal = nums[nums.length - 1];
+
+        int[] dp = new int[maxVal + 2];
+
         int ans = 0;
 
         for (int x : nums) {
 
-            if (x > prev + 1) {
-                prev = x;
-                count = 1;
-            }
-            else if (x == prev + 1) {
-                prev = x;
-                count++;
-            }
-            else if (x == prev) {
-                prev = x + 1;
-                count++;
-            }
+            // Choice 1: Increase current element by 1
+            dp[x + 1] = Math.max(
+                dp[x + 1],
+                dp[x] + 1
+            );
 
-            ans = Math.max(ans, count);
+            // Choice 2: Keep current element unchanged
+            dp[x] = Math.max(
+                dp[x],
+                dp[x - 1] + 1
+            );
+
+            ans = Math.max(ans, dp[x]);
+            ans = Math.max(ans, dp[x + 1]);
         }
 
         return ans;
