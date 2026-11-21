@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 32 / 76 (42.1%)
+- **Completed:** 33 / 76 (43.4%)
 
 ---
 
@@ -22,7 +22,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Trapping Rain Water
 
 ### 📂 Two Pointers & Hashing
-- [ ] Search a 2D Matrix
+- [x] [Search a 2D Matrix](./Java/Medium/74. Search a 2D Matrix/)
 - [ ] Pow(x, n)
 - [x] [Majority Element](./Java/Easy/169. Majority Element/)
 - [ ] Majority Element II
