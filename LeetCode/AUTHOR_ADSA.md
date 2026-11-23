@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs Advanced DSA interview preparation list.
 
 ## Progress
-- **Completed:** 12 / 65 (18.5%)
+- **Completed:** 13 / 65 (20.0%)
 
 ---
 
@@ -32,7 +32,7 @@ Track your progress on the Curated 100hrs Advanced DSA interview preparation lis
 - [x] [Remove Duplicates from Sorted List II](./Java/Medium/82. Remove Duplicates from Sorted List II/)
 - [x] [Remove Nodes From Linked List](./Java/Medium/2573. Remove Nodes From Linked List/)
 - [ ] Merge Nodes in Between Zeros
-- [ ] Insert Greatest Common Divisors in Linked List
+- [x] [Insert Greatest Common Divisors in Linked List](./Java/Medium/2903. Insert Greatest Common Divisors in Linked List/)
 
 ### 📂 Module  1.4: Reordering, Palindrome & Pa
 - [x] [Palindrome Linked List](./Java/Easy/234. Palindrome Linked List/)
